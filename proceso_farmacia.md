@@ -18,7 +18,7 @@ flowchart TD
     J -- Sí --> K[Finalizar atención]
 
     J -- No --> L[Registrar pedido pendiente]
-    L --> M[Capturar: Producto, Fecha pedido, Fecha llegada estimada]
+    L --> M[Capturar: Producto, Fecha pedido]
     M --> N[Marcar como pendiente en seguimiento]
 
     K --> O[Fin]
