@@ -2,10 +2,10 @@
 
 ```mermaid
 flowchart TD
-    A[Inicio: Atención al Cliente en Farmacia] --> B{¿Cliente nuevo o existente?}
+    A[Inicio: Atención al Cliente en Farmacia] --> B{¿Cliente?}
 
     B -- Nuevo --> C[Registrar cliente en base de datos]
-    C --> D[Capturar: ID, Tipo de Cliente]
+    C --> D[Capturar: ID]
     D --> F{¿Consulta o compra?}
 
     F -- Consulta --> G[Brindar información al cliente]
