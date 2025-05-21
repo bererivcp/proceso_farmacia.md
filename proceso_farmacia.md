@@ -5,9 +5,9 @@ flowchart TD
     A[Inicio: Atención al Cliente en Farmacia] --> B{¿Cliente nuevo o existente?}
 
     B -- Nuevo --> C[Registrar cliente en base de datos]
-    C --> D[Capturar: ID, Nombre, Contacto, Tipo de Cliente]
+    C --> D[Capturar: ID, Tipo de Cliente]
 
-    B -- Existente --> E[Buscar cliente en base de datos]
+    B -- Existente --> E[ cliente/base de datos]
 
     E --> F{¿Consulta o compra?}
     D --> F
