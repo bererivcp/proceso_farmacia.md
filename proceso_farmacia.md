@@ -6,11 +6,7 @@ flowchart TD
 
     B -- Nuevo --> C[Registrar cliente en base de datos]
     C --> D[Capturar: ID, Tipo de Cliente]
-
-    B -- Existente --> E[ cliente/base de datos]
-
-    E --> F{¿Consulta o compra?}
-    D --> F
+    D --> F{¿Consulta o compra?}
 
     F -- Consulta --> G[Brindar información al cliente]
 
@@ -28,4 +24,5 @@ flowchart TD
     K --> O[Fin]
     N --> O
     G --> O
+
 ```
