@@ -1,5 +1,4 @@
 # Diagrama de Finanzas en Farmacia
-
 ```mermaid
 flowchart TD
     A[Inicio] --> B[Registrar ingresos]
@@ -27,4 +26,5 @@ flowchart TD
     J --> K
 
     K --> L[Fin]
+
 ```
