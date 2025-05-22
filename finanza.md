@@ -8,11 +8,11 @@ flowchart TD
     D --> D1[Pago a proveedores]
     D --> D2[Control de facturas]
 
-    C --> E[Gestión de Recursos Humanos (RRHH)]
+    C --> E[Gestión de Recursos Humanos RRHH]
     E --> E1[Pago de sueldos]
     E --> E2[Registro de horas laborales]
 
-    C --> F[Gestión de Recursos Materiales (RRMM)]
+    C --> F[Gestión de Recursos Materiales RRMM]
     F --> F1[Compra de insumos]
     F --> F2[Inventario de productos]
 
