@@ -9,7 +9,7 @@ flowchart TD
     E --> F{¿Producto disponible?}
     F --> G[No: Anotar y comunicar a almacen]
     G --> H[Fin de la atención]
-    F --> I[Sí: Concretar la venta]
+    F --> I[Sí: Concretar el pase a caja]
     I --> H
 
 ```
